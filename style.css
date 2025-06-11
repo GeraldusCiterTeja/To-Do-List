@@ -82,3 +82,10 @@ button:hover{
 #todoList button:hover{
     background-color: rgba(190, 2, 2, 0.979);
 }
+
+@media(max-width: 600px){
+    #todoList{
+        width: 100%;
+        font-size: 14px;
+    }
+}
